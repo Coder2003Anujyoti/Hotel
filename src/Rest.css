@@ -1,7 +1,5 @@
- @media screen and (max-width:999px)
- {
-    #container{
-      width:905px;
+  #container{
+      width:645px;
       height:150px;
       display: flex;
       flex-wrap:none;
@@ -13,9 +11,9 @@
     }
     #button-container{
         display:flex;
-        gap:45px;
+        gap:40px;
         position: absolute;
-        left:45px;
+        left:25px;
         top:5px;
     }
     #rest{
@@ -29,7 +27,7 @@
     }
     #op{
       position:absolute;
-      left:75px;
+      left:155px;
       top:-5px;
       font-weight:bolder;
       font-size:35px;
@@ -51,7 +49,7 @@
     }
     
     #image-containers{
-      width:905px;
+      width:605px;
       height:0px;
       position: absolute;
       top:150px;
@@ -62,8 +60,8 @@
       gap:5px
     }
     #image-container{
-      width:230px;
-      height:350px;
+      width:300px;
+      height:420px;
       position: relative;
       left:5px;
       top:15px;
@@ -75,11 +73,101 @@
       position:relative;
       top:50px;
       left:20px;
-      font-size:25px;
+      font-size:35px;
     }
     #image{
-      width:230px;
+      width:300px;
       height:200px;
+      position:relative;
+      top:0px;
+      left:0px;
+      border-radius:15px;
+    }
+@media (min-width:705px){
+        #container{
+      width:1740px;
+      height:250px;
+      display: flex;
+      flex-wrap:none;
+      justify-content: center;
+      align-items: center;
+      gap:15px;
+      position: absolute;
+      left:0px;
+      top:0px;
+      background-color:orange;
+}
+#rest{
+      width:505px;
+      height:20px;
+      background-color: green;
+    }
+    body{
+      background-color:green;
+      overflow-x: hidden;
+    
+    }
+    #op{
+      position: absolute;
+      top:0px;
+      left:400px;
+      font-weight:bolder;
+      font-size:65px;
+      font-style:sans-serif;
+      text-decoration:underline;
+    }
+    #button-container{
+        display:flex;
+        gap:55px;
+        position: absolute;
+        left:45px;
+        top:25px;
+    }
+    #bn{
+      position:relative;
+      top:150px;
+      left:90px;
+      width:250px;
+      height:50px;
+      border-radius:25px;
+      font-size:30px;
+      font-weight:bolder;
+      border:2px solid black;
+      color:white;
+      background-color:black;
+    }
+    
+    #image-containers{
+      width:1400px;
+      height:0px;
+      position: absolute;
+      top:290px;
+      left:60px;
+      display: flex;
+      flex-wrap:wrap;
+      flex-direction:row;
+      gap:50px;
+      background-color: red;
+    }
+    #image-container{
+      width:630px;
+      height:550px;
+      position:relative;
+      left:5px;
+      top:3px;
+      background-color:black;
+      color:white;
+      border-radius:15px;
+    }
+    #name{
+      position:relative;
+      top:5px;
+      left:60px;
+      font-size:45px;
+    }
+    #image{
+      width:630px;
+      height:400px;
       position:relative;
       top:0px;
       left:0px;
@@ -178,3 +266,9 @@
       border-radius:15px;
     }
     }
+   
+      
+      
+      
+      
+  
