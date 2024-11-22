@@ -110,7 +110,7 @@
     #op{
       position: absolute;
       top:0px;
-      left:400px;
+      left:45vw;
       font-weight:bolder;
       font-size:65px;
       font-style:sans-serif;
@@ -120,8 +120,8 @@
         display:flex;
         gap:55px;
         position: absolute;
-        left:45px;
-        top:25px;
+        left:6vw;
+        top:1vw;
     }
     #bn{
       position:relative;
@@ -142,7 +142,7 @@
       height:0px;
       position: absolute;
       top:290px;
-      left:60px;
+      left:7vw;
       display: flex;
       flex-wrap:wrap;
       flex-direction:row;
@@ -150,7 +150,7 @@
       background-color: red;
     }
     #image-container{
-      width:630px;
+      width:64vw;
       height:550px;
       position:relative;
       left:5px;
@@ -166,7 +166,7 @@
       font-size:45px;
     }
     #image{
-      width:630px;
+      width:64vw;
       height:400px;
       position:relative;
       top:0px;
