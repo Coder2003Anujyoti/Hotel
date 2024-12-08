@@ -9,10 +9,6 @@ Welcome to the **Restaurant Menu** repository! This project aims to provide a di
 - **Vegan & Gluten-Free Options**: Display special dietary items 🌱🚫🍞.
 - **Visuals & Emojis**: Use fun emojis to make your menu more engaging 🎉.
 
-## Installation:
-1. Clone the repository: `git clone <repository_url>`
-2. Customize the menu items as needed.
-3. Integrate the menu into your website or app with ease.
 
 ## Contributing:
 We welcome contributions! Feel free to fork the repository and submit pull requests for new features or improvements. 🤝
